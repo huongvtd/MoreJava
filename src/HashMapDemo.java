@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class HashMapDemo {
     public static void main(String[] args) {
@@ -19,5 +20,16 @@ public class HashMapDemo {
 
         students.replace("Bi",8 );
         System.out.println(students);
+
+        System.out.println("--------------------------------");
+
+        Iterator<String> iterator = students.keySet().iterator();
+        String student = iterator.next();
+        System.out.println("1st student is "+ student);
+
+        Iterator iterator1 = students.keySet().iterator();
+        while (iterator1.hasNext()) {
+            System.out.println("Key set: " + iterator1.next());
+        }
     }
 }
