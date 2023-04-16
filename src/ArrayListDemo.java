@@ -29,6 +29,7 @@ public class ArrayListDemo {
             System.out.println(value);
         }
         System.out.println("-------------------------------");
+
         Iterator<String> iterator = nameList.iterator();
         String name = iterator.next();
         System.out.println("1st name is "+ name);
