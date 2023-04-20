@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class ListOfMaps {
     public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class ListOfMaps {
 
         System.out.println("-----------------------------------");
 
-        ArrayList< HashMap <String, String>> studentList = new ArrayList<>();
+        List< HashMap <String, String>> studentList = new ArrayList<>();
         studentList.add(student1);
         studentList.add(student2);
         studentList.add(student3);
